@@ -66,7 +66,7 @@ include("koneksi.php");
              echo "<td>".$pasien['tanggal_lahir']."</td>";
              echo "<td>".$pasien['no_kamar']."</td>";
              echo "<td>";
-             echo "<a href='edit-data.php?id=".$pasien['id']."'>Edit</a> |";
+             echo "<a href='editdata.php?id=".$pasien['id']."'>Edit</a> |";
              echo "<a href='hapus.php?id=".$pasien['id']."'>Hapus</a> |";
              echo "</td>";
     echo "</tr>";
